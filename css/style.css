@@ -940,14 +940,15 @@
 		}
 
 	#header {
-		background-color: #383b43;
+		background-color: transparent;
 		color: #ffffff;
 		cursor: default;
 		font-size: 1.1em;
 		height: 6em;
 		line-height: 6em;
 		width: 100%;
-		z-index: 10000;
+		position: absolute;
+		z-index: 4;
 	}
 
 		#header h1 {
