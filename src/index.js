@@ -5,7 +5,6 @@ import { createStore, applyMiddleware } from 'redux';
 import { Router, Route, IndexRoute, browserHistory } from 'react-router';
 import reduxThunk from 'redux-thunk';
 
-window.jQuery = require('jquery');
 
 import { AUTH_USER } from './actions/types';
 import Home from './components/home';
